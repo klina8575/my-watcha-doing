@@ -4,6 +4,8 @@ import Footer from "./../components/Footer";
 import styled from "styled-components";
 
 import LatestMovieContainer from "../containers/LatestMovieContainer";
+import UpcomingMovieContainer from "../containers/UpcomingMovieContainer";
+import NowPlayingMovieContainer from "../containers/NowPlayingMovieContainer";
 
 const Main = styled.main`
   max-width: 1200px;
@@ -22,6 +24,8 @@ const Mainpage = () => {
       <Main>
         <Container>
           <LatestMovieContainer />
+          <UpcomingMovieContainer />
+          <NowPlayingMovieContainer />
         </Container>
       </Main>
       <Footer />
