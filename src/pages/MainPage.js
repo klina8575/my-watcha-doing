@@ -3,6 +3,8 @@ import Header from "../components/Header";
 import Footer from "./../components/Footer";
 import styled from "styled-components";
 
+import LatestMovieContainer from "../containers/LatestMovieContainer";
+
 const Main = styled.main`
   max-width: 1200px;
   margin: 0 auto;
@@ -18,7 +20,9 @@ const Mainpage = () => {
     <>
       <Header />
       <Main>
-        <Container>내용물</Container>
+        <Container>
+          <LatestMovieContainer />
+        </Container>
       </Main>
       <Footer />
     </>
